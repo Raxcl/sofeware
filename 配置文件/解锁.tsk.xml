@@ -1,0 +1,199 @@
+<TaskerData sr="" dvi="1" tv="5.10.1">
+	<Task sr="task12">
+		<cdate>1682094050908</cdate>
+		<edate>1682166508077</edate>
+		<id>12</id>
+		<nme>解锁</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>806</code>
+			<Int sr="arg0" val="500"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>985050481</code>
+			<label>6</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.meteotask.extra.INT_VERSION_CODE>99</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
+					<com.balda.meteotask.extra.OPERATION>2</com.balda.meteotask.extra.OPERATION>
+					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
+					<com.balda.touchtask.extra.SELECTION>900 1400</com.balda.touchtask.extra.SELECTION>
+					<com.balda.touchtask.extra.SELECTION-type>java.lang.String</com.balda.touchtask.extra.SELECTION-type>
+					<com.balda.touchtask.extra.SEL_METHOD>2</com.balda.touchtask.extra.SEL_METHOD>
+					<com.balda.touchtask.extra.SEL_METHOD-type>java.lang.Integer</com.balda.touchtask.extra.SEL_METHOD-type>
+					<com.balda.touchtask.extra.TYPE>16</com.balda.touchtask.extra.TYPE>
+					<com.balda.touchtask.extra.TYPE-type>java.lang.Integer</com.balda.touchtask.extra.TYPE-type>
+					<com.balda.touchtask.extra.WAIT_REGEX>false</com.balda.touchtask.extra.WAIT_REGEX>
+					<com.balda.touchtask.extra.WAIT_REGEX-type>java.lang.Boolean</com.balda.touchtask.extra.WAIT_REGEX-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>动作：点击 方法：坐标点(X,Y) 选择：900 1400</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.touchtask.extra.SELECTION</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.touchtask</Str>
+			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformActions</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>199558826</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.fingertask.extra.DURATION>150</com.balda.fingertask.extra.DURATION>
+					<com.balda.fingertask.extra.DURATION-type>java.lang.String</com.balda.fingertask.extra.DURATION-type>
+					<com.balda.fingertask.extra.POINT1>540 992</com.balda.fingertask.extra.POINT1>
+					<com.balda.fingertask.extra.POINT1-type>java.lang.String</com.balda.fingertask.extra.POINT1-type>
+					<com.balda.fingertask.extra.POINT2>540 482</com.balda.fingertask.extra.POINT2>
+					<com.balda.fingertask.extra.POINT2-type>java.lang.String</com.balda.fingertask.extra.POINT2-type>
+					<com.balda.fingertask.extra.TYPE>0</com.balda.fingertask.extra.TYPE>
+					<com.balda.fingertask.extra.TYPE-type>java.lang.Integer</com.balda.fingertask.extra.TYPE-type>
+					<com.balda.meteotask.extra.INT_VERSION_CODE>99</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
+					<com.balda.meteotask.extra.OPERATION>0</com.balda.meteotask.extra.OPERATION>
+					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
+					<com.balda.touchtask.extra.WAIT_REGEX>false</com.balda.touchtask.extra.WAIT_REGEX>
+					<com.balda.touchtask.extra.WAIT_REGEX-type>java.lang.Boolean</com.balda.touchtask.extra.WAIT_REGEX-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>手势：滑动</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.fingertask.extra.POINT1 com.balda.fingertask.extra.POINT2 com.balda.fingertask.extra.DURATION</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.touchtask</Str>
+			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformGestures</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>985050481</code>
+			<label>0</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.meteotask.extra.INT_VERSION_CODE>99</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
+					<com.balda.meteotask.extra.OPERATION>2</com.balda.meteotask.extra.OPERATION>
+					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
+					<com.balda.touchtask.extra.SELECTION>666 1800</com.balda.touchtask.extra.SELECTION>
+					<com.balda.touchtask.extra.SELECTION-type>java.lang.String</com.balda.touchtask.extra.SELECTION-type>
+					<com.balda.touchtask.extra.SEL_METHOD>2</com.balda.touchtask.extra.SEL_METHOD>
+					<com.balda.touchtask.extra.SEL_METHOD-type>java.lang.Integer</com.balda.touchtask.extra.SEL_METHOD-type>
+					<com.balda.touchtask.extra.TYPE>16</com.balda.touchtask.extra.TYPE>
+					<com.balda.touchtask.extra.TYPE-type>java.lang.Integer</com.balda.touchtask.extra.TYPE-type>
+					<com.balda.touchtask.extra.WAIT_REGEX>false</com.balda.touchtask.extra.WAIT_REGEX>
+					<com.balda.touchtask.extra.WAIT_REGEX-type>java.lang.Boolean</com.balda.touchtask.extra.WAIT_REGEX-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>动作：点击 方法：坐标点(X,Y) 选择：666 1800</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.touchtask.extra.SELECTION</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.touchtask</Str>
+			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformActions</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="150"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>985050481</code>
+			<label>6</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.meteotask.extra.INT_VERSION_CODE>99</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
+					<com.balda.meteotask.extra.OPERATION>2</com.balda.meteotask.extra.OPERATION>
+					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
+					<com.balda.touchtask.extra.SELECTION>900 1400</com.balda.touchtask.extra.SELECTION>
+					<com.balda.touchtask.extra.SELECTION-type>java.lang.String</com.balda.touchtask.extra.SELECTION-type>
+					<com.balda.touchtask.extra.SEL_METHOD>2</com.balda.touchtask.extra.SEL_METHOD>
+					<com.balda.touchtask.extra.SEL_METHOD-type>java.lang.Integer</com.balda.touchtask.extra.SEL_METHOD-type>
+					<com.balda.touchtask.extra.TYPE>16</com.balda.touchtask.extra.TYPE>
+					<com.balda.touchtask.extra.TYPE-type>java.lang.Integer</com.balda.touchtask.extra.TYPE-type>
+					<com.balda.touchtask.extra.WAIT_REGEX>false</com.balda.touchtask.extra.WAIT_REGEX>
+					<com.balda.touchtask.extra.WAIT_REGEX-type>java.lang.Boolean</com.balda.touchtask.extra.WAIT_REGEX-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>动作：点击 方法：坐标点(X,Y) 选择：900 1400</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.touchtask.extra.SELECTION</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.touchtask</Str>
+			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformActions</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="150"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>985050481</code>
+			<label>2</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.meteotask.extra.INT_VERSION_CODE>99</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
+					<com.balda.meteotask.extra.OPERATION>2</com.balda.meteotask.extra.OPERATION>
+					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
+					<com.balda.touchtask.extra.SELECTION>540 1100</com.balda.touchtask.extra.SELECTION>
+					<com.balda.touchtask.extra.SELECTION-type>java.lang.String</com.balda.touchtask.extra.SELECTION-type>
+					<com.balda.touchtask.extra.SEL_METHOD>2</com.balda.touchtask.extra.SEL_METHOD>
+					<com.balda.touchtask.extra.SEL_METHOD-type>java.lang.Integer</com.balda.touchtask.extra.SEL_METHOD-type>
+					<com.balda.touchtask.extra.TYPE>16</com.balda.touchtask.extra.TYPE>
+					<com.balda.touchtask.extra.TYPE-type>java.lang.Integer</com.balda.touchtask.extra.TYPE-type>
+					<com.balda.touchtask.extra.WAIT_REGEX>false</com.balda.touchtask.extra.WAIT_REGEX>
+					<com.balda.touchtask.extra.WAIT_REGEX-type>java.lang.Boolean</com.balda.touchtask.extra.WAIT_REGEX-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>动作：点击 方法：坐标点(X,Y) 选择：540 1100</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.touchtask.extra.SELECTION</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.touchtask</Str>
+			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformActions</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="150"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
